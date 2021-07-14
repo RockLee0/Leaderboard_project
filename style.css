@@ -1,3 +1,131 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
 body{
-    background-color: aqua;
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    background-color: #562EFF;
+    width: 1440px;
+    height: 94px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 240px;
+    padding: 20px 0;
+
+  
+}
+.menu{
+    padding-top: 15px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+    padding-right: 15px;
+}
+.logo h2{
+    color: white;
+    font-weight: 24px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+/* <!-- header end --> */
+.main{
+    margin: 5px 240px;
+    width: 870px;
+    height: 679px;
+    background-color:whitesmoke;
+}
+.top_title{
+    margin-left: 52px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    color:#562EFF;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    
+   
+}
+.player,.blog,.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    padding-right: 16px;
+}
+h4{
+    font-size: 18px;
+}
+hr{
+    color:#D1D1D1, 100%;
+    margin: 0px 20px 0px 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+
+}
+
+.blog img{
+    height: 117px;
+width: 177px;
+border-radius: 10px;
+
+}
+h5{
+    Size: 20px;
+Line height: 34px;
+}
+.author{
+    text-decoration: none;
+    font Size :16px
+    color:#562EFF;
+}
+.blog{
+    margin: 0px 0px 26px 28px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+
+
+/* course  */
+.latest-courses{
+    margin: 5px 240px;
+    width: 870px;
+    height: 250px;
+    background-color:whitesmoke;
+}
+
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+
+}
+.course img{
+    height: 117px;
+width:177px;
+border-radius: 0px;
 }
